@@ -32,7 +32,7 @@ public class CoffeeMachine {
         return numTazas;
     }
 
-    public static int[] calcularIngrediente(int numTazas){
+    public static void calcularIngrediente(int numTazas){
 
         /*Ten en cuenta que una taza de café preparada en esta cafetera contiene 200 ml de agua, 50 ml de leche
         y 15 g de granos de café. Devuelva al usuario las cantidades requeridas de ingredientes*/
@@ -50,7 +50,6 @@ public class CoffeeMachine {
                 cantIngre[1] +" ml de leche\n" +
                 cantIngre[2] +" g de café");
 
-        return null;
     }
     public static void numPorciones(){
 
