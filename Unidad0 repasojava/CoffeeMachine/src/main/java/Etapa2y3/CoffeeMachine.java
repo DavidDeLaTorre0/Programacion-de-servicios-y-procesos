@@ -16,11 +16,10 @@ public class CoffeeMachine {
         int numTazas;
         numTazas = pedirTazas();
 
-        int[] ingr = new int [3];
-        ingr = calcularIngrediente(numTazas);
+        calcularIngrediente(numTazas);
 
         /* EJ3 */
-        numPorciones(ingr);
+        numPorciones();
 
 
 
@@ -53,9 +52,9 @@ public class CoffeeMachine {
 
         return null;
     }
-    public static void numPorciones(int[] ingr){
+    public static void numPorciones(){
 
-        int[] cantIngre = new int[3];
+        int[] cantIngre;
 
         System.out.println("Escribe cuántos ml de agua tiene la máquina:\n");
         int agua =scan.nextInt();
