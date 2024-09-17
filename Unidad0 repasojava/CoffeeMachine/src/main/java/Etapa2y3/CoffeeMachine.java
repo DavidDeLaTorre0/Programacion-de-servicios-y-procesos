@@ -96,7 +96,7 @@ public class CoffeeMachine {
 
             }else{
 
-                System.out.println("ERROR");
+                System.out.println("ERROR, ecriba un numero mayor que 0");
             }
 
         }else{
