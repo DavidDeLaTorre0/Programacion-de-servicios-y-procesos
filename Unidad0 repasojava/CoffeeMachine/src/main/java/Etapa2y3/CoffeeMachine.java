@@ -96,7 +96,7 @@ public class CoffeeMachine {
 
             }else{
 
-                System.out.println("Y tal");
+                System.out.println("ERROR");
             }
 
         }else{
