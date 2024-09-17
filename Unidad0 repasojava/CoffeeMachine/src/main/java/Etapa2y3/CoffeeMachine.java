@@ -74,7 +74,7 @@ public class CoffeeMachine {
                 int[] ingredientes = {agua,leche,cafe};
                 cantIngre = dividirIngre(ingredientes,cantNormal);
 
-                /*hay que ordenar el array, luego coger el nunmero mas bajo*/
+                
                 int num ;
                 num = ordenarArray(cantIngre);
 
