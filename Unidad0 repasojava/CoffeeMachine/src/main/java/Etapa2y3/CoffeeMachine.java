@@ -56,13 +56,13 @@ public class CoffeeMachine {
 
         int[] cantIngre;
 
-        System.out.println("Escribe cuántos ml de agua tiene la máquina:\n");
+        System.out.println("Escribe cuántos ml de agua tiene la máquina:");
         int agua =scan.nextInt();
-        System.out.println ("Escribe cuántos ml de leche tiene la máquina:\n");
+        System.out.println ("Escribe cuántos ml de leche tiene la máquina:");
         int leche =scan.nextInt();
-        System.out.println ("Escribe cuántos gramos de café tiene la máquina:\n");
+        System.out.println ("Escribe cuántos gramos de café tiene la máquina:");
         int cafe = scan.nextInt();
-        System.out.println ("Escribe cuántas tazas de café necesitas hacer:\n");
+        System.out.println ("Escribe cuántas tazas de café necesitas hacer:");
         int numTazas = scan.nextInt();
 
 
